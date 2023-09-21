@@ -1,0 +1,29 @@
+.myItems{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+	border-radius: 0.25rem;
+}
+.comments{
+	color: #fff;
+    background-color: #17a2b8;
+	padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+	display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	position: absolute;
+    right: 110px;
+}
